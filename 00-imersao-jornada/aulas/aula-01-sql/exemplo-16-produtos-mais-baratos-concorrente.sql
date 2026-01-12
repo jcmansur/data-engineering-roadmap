@@ -24,15 +24,17 @@ SELECT
     pc.preco_concorrente,
     (p.preco_atual - pc.preco_concorrente) AS diferenca_absoluta,
     ROUND(
-        ((p.preco_atual - pc.preco_concorrente) / pc.preco_concorrente * 100), 
+        ((p.preco_atual - pc.preco_concorrente) / pc.preco_concorrente * 100)::numeric, 
         2
     ) AS percentual_mais_caro
 FROM 
     produtos p
-    INNER JOIN preco_competidores pc ON p.id_produto = pc.id_produto
+INNER JOIN preco_competidores pc 
+    ON p.id_produto = pc.id_produto
 WHERE 
     p.preco_atual > pc.preco_concorrente
 ORDER BY 
     percentual_mais_caro DESC
 LIMIT 30;
+
 

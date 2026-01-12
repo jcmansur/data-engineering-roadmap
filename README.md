@@ -1,4 +1,6 @@
-# Roadmap de Engenharia de Dados
+# Formação Profissional em Engenharia de Dados e Inteligência Artificial
+
+**(Extensão Universitária)**
 
 <p align="center">
   <a href="https://suajornadadedados.com.br/"><img src="pics/logo.png" alt="Jornada de Dados"></a>
@@ -9,9 +11,45 @@
 
 ## 📋 Sobre
 
-Este é o **repositório oficial da Formação Profissional em Engenharia de Dados** da **Jornada de Dados**. 
+Este é o **repositório oficial da Formação Profissional em Engenharia de Dados e Inteligência Artificial (Extensão Universitária)** da **Jornada de Dados**. 
 
 **Esse é o roadmap para se especializar em engenharia de dados**, baseado em fundamentos, principais tecnologias de mercado e projetos práticos do mundo real. Este repositório contém todo o conteúdo prático, projetos, exercícios e materiais de apoio utilizados durante a formação.
+
+### 🎓 Por que "Formação Profissional"?
+
+Este não é apenas um curso ou bootcamp. É uma **formação completa** que:
+
+- ✅ **Eleva o nível profissional**: Conteúdo estruturado para profissionais que buscam especialização
+- ✅ **Reconhecimento institucional**: Extensão Universitária com validade acadêmica
+- ✅ **Foco em mercado**: Baseado em tecnologias e práticas reais do mercado de trabalho
+- ✅ **Preparação completa**: Do zero até projetos avançados de produção
+
+### 🛠️ Engenharia de Dados como Eixo Central
+
+A formação tem como núcleo a **Engenharia de Dados**, cobrindo:
+
+- **Pipelines de dados**: ETL/ELT, processamento em batch e streaming
+- **Infraestrutura**: Cloud, containers, orquestração
+- **Qualidade e observabilidade**: Validação, monitoramento, testes
+- **Produção**: Deploy, escalabilidade, manutenção
+
+### 🤖 Inteligência Artificial como Complemento Estratégico
+
+A **IA** entra de forma estratégica e prática:
+
+- **Agentes de IA**: RAG, Vector Search, LangChain
+- **Aplicações reais**: Chatbots, análise de dados com LLMs
+- **Integração com dados**: Databricks + IA, pipelines inteligentes
+- **Preparação para o futuro**: Conteúdo alinhado com 2026+
+
+### 🎓 Extensão Universitária
+
+A formação possui reconhecimento como **Extensão Universitária**, oferecendo:
+
+- ✅ **Horas complementares**: Válidas para graduação
+- ✅ **Diferenciação no currículo**: Certificação com validade acadêmica
+- ✅ **Legitimidade institucional**: Reconhecimento pelo MEC
+- ✅ **Valor profissional**: Diferencial competitivo no mercado
 
 **Estrutura do Repositório:**
 
@@ -25,13 +63,15 @@ Este é o **repositório oficial da Formação Profissional em Engenharia de Dad
 
 ## 🎯 Objetivos da Formação
 
-Esta formação visa capacitar profissionais para:
+Esta **Formação Profissional** visa capacitar profissionais para:
 
-- Construir pipelines de dados robustos e escaláveis
-- Dominar ferramentas modernas de engenharia de dados (Python, SQL, Airflow, dbt, Cloud)
-- Aplicar boas práticas de desenvolvimento e arquitetura de dados
-- Implementar soluções de dados em produção
-- Trabalhar com dados em grande escala (Big Data)
+- **Construir pipelines de dados robustos e escaláveis** para ambientes de produção
+- **Dominar ferramentas modernas** de engenharia de dados (Python, SQL, Airflow, dbt, Cloud, Databricks)
+- **Aplicar boas práticas** de desenvolvimento, arquitetura de dados e engenharia de software
+- **Implementar soluções de dados em produção** com qualidade e observabilidade
+- **Trabalhar com dados em grande escala** (Big Data) e processamento distribuído
+- **Integrar Inteligência Artificial** em pipelines e aplicações de dados
+- **Preparar-se para o mercado** com habilidades alinhadas às demandas reais das empresas
 
 ## 🚀 Como Usar Este Repositório
 
@@ -85,15 +125,16 @@ Esta formação visa capacitar profissionais para:
 
 ### Engenharia de Dados e IA (`05-engenharia-de-dados-e-ia/`)
 
-- REST APIs com FastAPI
-- Kafka e Pub/Sub para streaming
+- REST APIs com FastAPI para aplicações de dados
+- Kafka e Pub/Sub para streaming de dados em tempo real
 - Dashboards em tempo real com Streamlit
 - Infrastructure as Code com Terraform
+- Integração de IA em pipelines de dados
 
 ### Cloud AWS (`06-cloud-aws-para-dados/`)
 
-- 19 aulas práticas sobre AWS para dados
-- S3, Glue, Athena, Lambda, EMR, Redshift e mais
+- 15 aulas práticas sobre AWS para dados + projetos integrados
+- S3, EC2, RDS, Lambda, VPC, IAM, SQS, SNS, API Gateway, DynamoDB, Amplify e mais
 
 ## 🔗 Links Importantes
 
@@ -101,7 +142,7 @@ Esta formação visa capacitar profissionais para:
 - **Plataforma de Ensino**: [Alpaclass](https://jornadadedados.alpaclass.com/)
 - **Canal YouTube**: [Workshops ao vivo e tutoriais](https://www.youtube.com/@JornadadeDados)
 
-Se você gostou do conteúdo e quer se inscrever em nosso programa profissional, acesse: [Jornada de Dados](https://suajornadadedados.com.br/)
+Se você gostou do conteúdo e quer se inscrever na **Formação Profissional em Engenharia de Dados e Inteligência Artificial (Extensão Universitária)**, acesse: [Jornada de Dados](https://suajornadadedados.com.br/)
 
 ---
 
@@ -195,7 +236,7 @@ ___
 | SQL para Analytics Engineer             | [Link](#)   | Concluído    | Domine SQL avançado para análise de dados e otimização de consultas complexas.        |
 | dbt-core                                | [Link](#)   | Concluído    | Utilize dbt-core para transformação de dados no data warehouse com práticas modernas. |
 | Web Scraping Avançado                   | [Link](#)   | Concluído    | Técnicas avançadas de extração de dados de sites e manipulação de APIs.               |
-| Cloud para Dados                        | [Link](#)   | Em andamento | Serviços de nuvem aplicados à engenharia de dados com AWS, Azure e GCP.               |
+| Cloud para Dados                        | [Link](#)   | Em andamento | Serviços AWS aplicados à engenharia de dados: S3, EC2, RDS, Lambda, VPC, IAM, SQS, SNS.               |
 
 ---
 

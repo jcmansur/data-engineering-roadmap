@@ -21,6 +21,7 @@ Este bootcamp é um **intensivo completo de Python** focado em engenharia de dad
 Este bootcamp é dividido em **4 fases progressivas**, totalizando **20 aulas práticas** que vão do zero ao avançado:
 
 ### Fase 1: Fundamentos (Aulas 01-06)
+
 **Objetivo**: Construir base sólida em Python aplicado a dados
 
 - **Aula 01**: Configuração do ambiente (Python, Git, VSCode) e primeiros passos
@@ -33,6 +34,7 @@ Este bootcamp é dividido em **4 fases progressivas**, totalizando **20 aulas pr
 **Resultado**: Você será capaz de escrever scripts Python funcionais para manipulação básica de dados.
 
 ### Fase 2: Funções e Estruturas (Aulas 07-10)
+
 **Objetivo**: Dominar funções, modularização e estruturas de dados avançadas
 
 - **Aula 07-09**: Funções em Python (3 partes)
@@ -45,6 +47,7 @@ Este bootcamp é dividido em **4 fases progressivas**, totalizando **20 aulas pr
 **Resultado**: Você criará código modular, reutilizável e bem estruturado.
 
 ### Fase 3: Programação Orientada a Objetos (Aulas 11-16)
+
 **Objetivo**: Aprender POO e aplicar em projetos de dados
 
 - **Aula 11**: Introdução à Programação Orientada a Objetos
@@ -59,6 +62,7 @@ Este bootcamp é dividido em **4 fases progressivas**, totalizando **20 aulas pr
 **Resultado**: Você projetará soluções orientadas a objetos para problemas complexos de dados.
 
 ### Fase 4: APIs e Projetos Completos (Aulas 17-20)
+
 **Objetivo**: Construir aplicações completas de dados
 
 - **Aula 17**: SQLAlchemy - Manipulação de SQL em Python
@@ -81,28 +85,3 @@ Este bootcamp é dividido em **4 fases progressivas**, totalizando **20 aulas pr
   - Deploy com Docker
 
 **Resultado**: Você construirá aplicações completas de dados prontas para produção.
-
-## 📚 Calendário de Aulas
-
-| Aula  | Workshop                                                                 | Horário |
-|-------|--------------------------------------------------------------------------|---------|
-| [Aula 01](./aula01) | Python, Git e VScode: Python do Zero                                    | 12am    |
-| [Aula 02](./aula02) | TypeError, Type Check, Type Conversion, try-except e if                | 12am    |
-| [Aula 03](./aula03) | Controle de Fluxo: DEBUG, IF, FOR, While, Listas e Dicionários         | 12am    |
-| [Aula 04](./aula04) | Tipos complexos e Type Hint (Dicionários vs DataFrames Vs Tabelas Vs Excel) | 12am    |
-| [Aula 05](./aula05) | Projeto 01: Leitura e Escrita de Arquivos, lendo 1 bilhão de linhas    | 12am    |
-| [Aula 06](./aula06) | Exercício de revisão                                                    | 12am    |
-| [Aula 07](./aula07) | Funções em Python e Estrutura de Dados - Parte 1                       | 12am    |
-| [Aula 08](./aula08) | Funções em Python e Estrutura de Dados - Parte 2                       | 12am    |
-| [Aula 09](./aula09) | Funções em Python e Estrutura de Dados - Parte 3                       | 12am    |
-| Aula 10 | Aula de revisão                                                         | 12am    |
-| [Aula 11](./aula11-15) | Introdução a POO                                                        | 19pm    |
-| [Aula 12](./aula11-15) | Introdução às Classes em Python - Parte 01                             | 19pm    |
-| [Aula 13](./aula11-15) | Introdução às Classes em Python - Parte 02                             | 19pm    |
-| [Aula 14](./aula11-15) | Introdução às Classes em Python - Parte 03                             | 19pm    |
-| [Aula 15](./aula11-15) | Introdução às Classes em Python - Parte 04                             | 19pm    |
-| [Aula 16](./aula16) | Aula de revisão de programação orientada a objetos + SQLModel          | 12am    |
-| [Aula 17](./aula17) | SQLAlchemy - Conjunto de ferramentas para manipular SQL em Python      | 12am    |
-| [Aula 18](./aula18) | O que é uma API? Request, Pydantic e fazendo nosso CRUD                | 12am    |
-| [Aula 19](./aula19) | O que é uma API? Criando nossa primeira API                            | 12am    |
-| [Aula 20](./aula20) | Nosso Projeto de CRUD Backend + Frontend + Banco de Dados              | 12am    |

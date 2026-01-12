@@ -1,62 +1,391 @@
-## Próximos treinamentos
+# Bootcamp Cloud para Dados
 
-![pics](/pics/bootcamp_cloud.png)
+## 📋 Sobre
 
-Para entregar valor ao negócio, é fundamental que nossas aplicações, dashboards, bancos de dados e modelos estejam em produção, ou seja, em uso pelo cliente.
+Este bootcamp é um **programa completo de Cloud Computing** focado em engenharia de dados. Você aprenderá a implantar aplicações de dados na AWS, desde conceitos fundamentais até projetos práticos completos.
 
-Se você já tentou implementar um serviço em Cloud na AWS, Azure ou GCP, sabe que há muitos desafios envolvidos: desde padrões a seguir, passando por configurações de IAM (acesso), redes privadas, até a implantação de máquinas virtuais e instalação de Docker.
+**Objetivo Educacional**: Dominar serviços AWS para implantar e gerenciar aplicações de dados em produção de forma independente.
 
-Muitas vezes, profissionais focados em dados e aplicações não possuem esse conhecimento especializado.
+## 🎯 Objetivos de Aprendizado
 
-O Bootcamp de Cloud para dados foi criado para preencher essa lacuna. É um curso que fornece os elementos essenciais de Cloud para que você possa implantar suas aplicações de forma independente.
+- **Fundamentos de Cloud**: Entender computação em nuvem e criar conta AWS
+- **AWS Core Services**: Dominar S3, EC2, IAM, VPC, RDS, Lambda, SQS, SNS
+- **Arquitetura Serverless**: Construir aplicações serverless com Lambda e eventos
+- **Gestão de Custos**: Controlar e otimizar custos na AWS
+- **Automação**: Gerenciar AWS via CLI e scripts
+- **Projetos Práticos**: Implementar aplicações completas na AWS
 
-Começamos do zero, com foco em quem não possui experiência em Cloud, e seguimos passo a passo até a implantação das suas primeiras aplicações. Durante o curso, construiremos cinco aplicações em diferentes plataformas de Cloud.
+## 📚 Conteúdo das Aulas
 
-Se você deseja entender VPC, EC2, e toda a infraestrutura necessária para subir suas aplicações, este Bootcamp é ideal para você.
+### Parte 1: AWS - Fundamentos (Aulas 01-08)
 
-O Bootcamp começará no dia 22 de agosto e terá duração até o dia 04 de outubro.
+#### Aula 01 - Introdução à AWS e Cloud Computing
 
-As aulas serão ao vivo, sempre às 12h (meio-dia), com duração de 1 hora e 20 minutos. Além disso, todas as aulas serão disponibilizadas na nossa plataforma no mesmo dia, para que você possa assisti-las quantas vezes desejar.
+**Conteúdo Real**:
 
-Para fazer parte desse bootcamp, a inscrição será liberada no dia 20/08 ás 20h em nosso canal no Youtube
+- Criação de conta AWS e configuração inicial
+- Controle de custos (AWS Budgets, Cost Explorer)
+- Navegação no AWS Management Console
+- Configuração de IAM básico e MFA
+- Criação do primeiro bucket S3 e publicação de site estático
+- Configuração de instância EC2 e deploy de aplicação Streamlit
 
-[![abertura](/pics/capa_youtube_bootcamp_cloud.png)](https://www.youtube.com/watch?v=GqgWGZtC-3w)
+**Objetivo**: Introduzir conceitos básicos de cloud computing e publicar primeira aplicação na AWS.
 
-## Conteúdo completo Bootcamp de cloud
+**Resultado**: Conta AWS configurada, site estático no S3 e aplicação rodando em EC2.
 
-Aqui está o calendário completo de aula (podendo sofrer alterações ao longo do curso)
+---
 
-Aqui está a tabela atualizada com os nomes dos serviços específicos do Azure e GCP nos respectivos projetos:
+#### Aula 02 - S3: Armazenamento de Dados na AWS
 
-| Acesso e início   | Tema da Aula                                            | Objetivo da Aula                                                                                      | Principais Tecnologias Abordadas                          | Carga Horária |
-|-------------------|---------------------------------------------------------|-------------------------------------------------------------|----------------------------------------------------------|---------------|
-| 23/08/2024 (Quinta) | Introdução a Cloud, criando nossa conta e publicando um site na AWS | Introduzir os conceitos básicos de computação em nuvem, criar uma conta AWS e publicar um site simples. | Amazon S3, Amazon Route 53                                | 1h20          |
-| 24/08/2024 (Sexta)  | Serviços de Armazenamento na Nuvem                    | Entender e gerenciar serviços de armazenamento na nuvem, garantindo segurança e escalabilidade para os dados empresariais. | Amazon S3                                                 | 1h20          |
-| 26/08/2024 (Segunda)| Computação em Nuvem - VMs                             | Explorar a criação e uso de VMs para aplicações escaláveis na nuvem.                                    | Amazon EC2                                                | 1h20          |
-| 27/08/2024 (Terça)  | Projeto EC2 e S3                                      | Implementar um projeto integrando EC2 e S3 para armazenar e processar dados de forma eficiente.         | Amazon EC2, Amazon S3                                     | 1h20          |
-| 29/08/2024 (Quinta) | Gerenciamento de Segurança IAM                        | Configurar e gerenciar identidades e acessos com segurança usando IAM.                                  | AWS IAM                                                   | 1h20          |
-| 30/08/2024 (Sexta)  | Gerenciamento de Redes VPC                            | Configurar redes virtuais na nuvem para otimizar a comunicação entre serviços.                          | Amazon VPC                                                | 1h20          |
-| 02/09/2024 (Segunda)| Banco de Dados Relacional                             | Aprender a configurar e gerenciar bancos de dados relacionais na nuvem.                                 | Amazon RDS                                                | 1h20          |
-| 03/09/2024 (Terça)  | Projeto Frontend e RDS                                | Desenvolver um frontend que interage com um banco de dados relacional na nuvem.                         | Amazon EC2, Amazon RDS                                    | 1h20          |
-| 05/09/2024 (Quinta) | Arquitetura de Eventos Parte 1                        | Entender e criar arquiteturas baseadas em eventos para comunicação entre serviços na nuvem.             | Amazon SNS, Amazon SQS, AWS EventBridge                   | 1h20          |
-| 06/09/2024 (Sexta)  | Arquitetura de Eventos Parte 2                        | Continuar o desenvolvimento de arquiteturas baseadas em eventos, integrando serviços adicionais.        | Amazon SNS, Amazon SQS, AWS EventBridge                   | 1h20          |
-| 09/09/2024 (Segunda)| AWS Lambda Parte 1                                    | Explorar a execução de funções serverless usando AWS Lambda para automatizar processos na nuvem.        | AWS Lambda                                                | 1h20          |
-| 10/09/2024 (Terça)  | AWS Lambda Parte 2                                    | Implementar um projeto completo utilizando AWS Lambda para criar uma arquitetura serverless.            | AWS Lambda                                                | 1h20          |
-| 12/09/2024 (Quinta) | Automatizando Tudo com Terraform                      | Aprender a automatizar a criação e o gerenciamento de infraestruturas na nuvem usando Terraform.        | Terraform, AWS                                            | 1h20          |
-| 13/09/2024 (Sexta)  | Terraform - Avançado                                  | Explorar funcionalidades avançadas do Terraform para gerenciar infraestruturas complexas.               | Terraform, AWS                                            | 1h20          |
-| 16/09/2024 (Segunda)| Projeto PDF Eventos Parte 1                           | Implementar um projeto que processa PDFs em eventos usando AWS Lambda, S3 e SQS.                        | AWS Lambda, Amazon S3, Amazon SQS                         | 1h20          |
-| 17/09/2024 (Terça)  | Projeto PDF Eventos Parte 2                           | Continuar o desenvolvimento do projeto de processamento de PDFs, integrando mais funcionalidades.       | AWS Lambda, Amazon S3, Amazon SQS                         | 1h20          |
-| 19/09/2024 (Quinta) | Introdução ao Azure                                   | Entender os conceitos básicos do Azure e configurar os serviços equivalentes à AWS (Blob Storage, VMs). | Azure Blob Storage, Azure Virtual Machines (VMs)          | 1h20          |
-| 20/09/2024 (Sexta)  | Projeto Azure: PostgreSQL e VNet                      | Implementar um projeto no Azure usando serviços equivalentes ao RDS, IAM e VPC da AWS.                  | Azure Database for PostgreSQL, Azure IAM, Azure Virtual Network (VNet) | 1h20          |
-| 23/09/2024 (Segunda)| Projeto Azure: Functions e Event Grid                 | Criar uma arquitetura serverless no Azure, utilizando funções e eventos, similar ao AWS Lambda.         | Azure Functions, Azure Event Grid                         | 1h20          |
-| 24/09/2024 (Terça)  | Revisão e De-Para AWS-Azure                           | Revisar o aprendizado e discutir o mapeamento de serviços AWS para Azure.                               | AWS, Azure                                                | 1h20          |
-| 26/09/2024 (Quinta) | Introdução ao GCP                                     | Entender os conceitos básicos do Google Cloud Platform e configurar os serviços equivalentes à AWS.     | Google Cloud Storage, Google Compute Engine (VMs)         | 1h20          |
-| 27/09/2024 (Sexta)  | Projeto GCP: Cloud SQL e VPC                          | Implementar um projeto no GCP usando serviços equivalentes ao RDS, IAM e VPC da AWS.                    | Cloud SQL (PostgreSQL), Google IAM, Google Virtual Private Cloud (VPC) | 1h20          |
-| 30/09/2024 (Segunda)| Projeto GCP: Cloud Functions e Pub/Sub                | Criar uma arquitetura serverless no GCP, utilizando funções e eventos, similar ao AWS Lambda.           | Google Cloud Functions, Google Pub/Sub                    | 1h20          |
-| 01/10/2024 (Terça)  | Revisão e De-Para AWS-GCP                             | Revisar o aprendizado e discutir o mapeamento de serviços AWS para GCP.                                 | AWS, Google Cloud Platform (GCP)                          | 1h20          |
-| 03/10/2024 (Quinta) | Containers na AWS Parte 1                             | Introdução ao uso de containers na AWS, utilizando Amazon ECS e Docker.                                 | Amazon ECS (Elastic Container Service), Docker            | 1h20          |
-| 04/10/2024 (Sexta)  | Containers na AWS Parte 2                             | Implementar um projeto utilizando containers na AWS com Amazon ECS e Docker.                            | Amazon ECS, Docker                                        | 1h20          |
-| 07/10/2024 (Segunda)| Containers na AWS Parte 3                             | Introdução ao Kubernetes na AWS, utilizando Amazon EKS.                                                 | Amazon EKS (Elastic Kubernetes Service), Kubernetes       | 1h20          |
-| 08/10/2024 (Terça)  | Containers na AWS Parte 4                             | Implementar um projeto utilizando Kubernetes na AWS com Amazon EKS.                                     | Amazon EKS, Kubernetes                                    | 1h20          |
-| 10/10/2024 (Quinta) | Airflow em Projeto Completo Parte 1                   | Introdução ao Apache Airflow, configurando e criando um pipeline de dados na AWS.                       | Apache Airflow, AWS                                       | 1h20          |
-| 11/10/2024 (Sexta)  | Airflow em Projeto Completo Parte 2                   | Implementar um projeto completo de pipeline de dados usando Apache Airflow na AWS.                      | Apache Airflow, AWS                                       | 1h20          |
+**Conteúdo Real**:
+
+- Revisão de custos com Cost Explorer e tags
+- Conceitos de storage e redundância no S3
+- Criação detalhada de buckets S3 (configurações avançadas)
+- Recursos avançados: Intelligent-Tiering, Server Access Logging, Event Notifications
+- Uso do S3 via Python (boto3): criar buckets, upload/download, políticas
+- Casos de uso em engenharia de dados: Data Lake, ETL, backup e arquivamento
+
+**Objetivo**: Dominar Amazon S3 para armazenamento escalável de dados.
+
+**Resultado**: Capacidade de gerenciar dados no S3 programaticamente e aplicar em pipelines de dados.
+
+---
+
+#### Aula 03 - EC2: Computação Escalável na AWS
+
+**Conteúdo Real**:
+
+- Revisão do S3 e integração com EC2
+- Conceitos fundamentais do EC2 (instâncias, AMIs, volumes EBS, Security Groups)
+- Configuração e lançamento de instâncias EC2
+- Acesso via SSH e configuração inicial
+- Famílias de instâncias: General Purpose, Compute Optimized, Memory Optimized, Accelerated Computing
+- Tipos de preço: On-Demand, Savings Plans, Spot, Dedicadas
+- Instalação do Airflow em instância EC2 (passo a passo completo)
+
+**Objetivo**: Dominar EC2 para executar aplicações e processar dados na cloud.
+
+**Resultado**: Capacidade de criar, configurar e gerenciar instâncias EC2 para diferentes workloads.
+
+---
+
+#### Aula 04 - IAM: Gerenciamento de Segurança
+
+**Conteúdo Real**:
+
+- Proteção da conta AWS e usuário root
+- Configuração de MFA (Multi-Factor Authentication)
+- Criação de usuários administrativos (AdministratorAccess vs PowerUserAccess)
+- Criação de grupos IAM (Engenheiro de Dados, Cientista de Dados, Lambda Executors)
+- Acesso programático e configuração de credenciais
+- IAM Roles para EC2 com acesso ao S3
+- Políticas personalizadas e boas práticas
+
+**Objetivo**: Implementar segurança e controle de acesso na AWS.
+
+**Resultado**: Conta AWS segura com usuários, grupos e roles configurados corretamente.
+
+---
+
+#### Aula 05 - VPC: Redes Virtuais na AWS
+
+**Conteúdo Real**:
+
+- Conceitos de VPC (Virtual Private Cloud)
+- Sub-redes públicas e privadas
+- Internet Gateway (IGW) e NAT Gateway
+- VPC Endpoints (Gateway e Interface)
+- Configuração completa de VPC do zero
+- Tabelas de roteamento e Security Groups
+- Projeto prático: Arquitetura segura com EC2 privada acessando S3 via VPC Endpoint
+
+**Objetivo**: Criar redes isoladas e seguras na AWS.
+
+**Resultado**: Capacidade de configurar VPCs completas com sub-redes públicas/privadas e endpoints.
+
+---
+
+#### Aula 06 - VPC: Projeto Prático
+
+**Conteúdo Real**:
+
+- Desafio de negócio: Proteção de dados sensíveis em ambientes regulatórios
+- Arquitetura completa: VPC com sub-redes públicas/privadas, Bastion Host, VPC Endpoint para S3
+- Estimativa de custos e análise de arquitetura
+- Tutorial passo a passo: Criar VPC, sub-redes, IGW, NAT, EC2 pública e privada
+- Configuração de acesso SSH via Bastion Host
+- Teste de acesso ao S3 via VPC Endpoint
+
+**Objetivo**: Implementar arquitetura de rede segura para processamento de dados sensíveis.
+
+**Resultado**: Arquitetura completa funcionando com segurança e conformidade.
+
+---
+
+#### Aula 07 - RDS: Bancos de Dados Gerenciados
+
+**Conteúdo Real**:
+
+- Conceitos do Amazon RDS
+- Funcionalidades: Multi-AZ, Read Replicas, Backup automático
+- Configuração passo a passo de instância RDS
+- Segurança: Encryption, Security Groups, IAM Authentication
+- Criação de VPC do zero para RDS
+- Projeto: Instalação do WordPress em EC2 usando RDS
+- Gerenciamento de backups e restauração
+
+**Objetivo**: Configurar e gerenciar bancos de dados relacionais na AWS.
+
+**Resultado**: Banco de dados RDS funcional e integrado com aplicações.
+
+---
+
+#### Aula 08 - Integração EC2 e RDS
+
+**Conteúdo Real**:
+
+- Projeto completo: API em Docker rodando em EC2 conectada ao RDS
+- Configuração de instância EC2 com Docker
+- Deploy de aplicação containerizada
+- Configuração de Security Groups para EC2 e RDS
+- Integração segura entre aplicação e banco de dados
+- Vantagens da arquitetura EC2 + RDS para engenharia de dados
+
+**Objetivo**: Integrar aplicações em EC2 com bancos de dados RDS.
+
+**Resultado**: Aplicação completa funcionando com backend, frontend e banco de dados.
+
+---
+
+### Parte 2: AWS - Serverless e Eventos (Aulas 09-15)
+
+#### Aula 09 - AWS Lambda e Eventos
+
+**Conteúdo Real**:
+
+- Introdução ao AWS Lambda e arquitetura serverless
+- Diferenças entre Lambda e EC2
+- Casos de uso: processamento de arquivos, ETL em tempo real, APIs serverless
+- Eventos na AWS: S3, DynamoDB Streams, API Gateway, CloudWatch, SQS
+- Configuração de função Lambda
+- Exemplo prático: Primeiro Lambda de teste
+
+**Objetivo**: Entender e usar AWS Lambda para automação serverless.
+
+**Resultado**: Funções Lambda criadas e acionadas por eventos.
+
+---
+
+#### Aula 10 - Gestão de Custos na AWS
+
+**Conteúdo Real**:
+
+- Política de tags focada em governança de custos (5 tags obrigatórias)
+- Organização de recursos com tags
+- Criação de grupos de recursos baseados em tags
+- AWS Cost Explorer com tags
+- Configuração de AWS Budgets com base em tags
+- AWS Cost Anomaly Detection
+- Checklist para evitar surpresas no final do mês
+
+**Objetivo**: Controlar e otimizar custos na AWS.
+
+**Resultado**: Sistema completo de gestão de custos implementado.
+
+---
+
+#### Aula 11 - Projetos Práticos com AWS Lambda
+
+**Conteúdo Real**:
+
+- Timer de 10 em 10 minutos com CloudWatch Events/EventBridge
+- Funções Lambda para horários específicos (9h, 12h, 18h)
+- Amazon EventBridge (CloudWatch Scheduler) - conceitos e configuração
+- Lambda para realizar requests HTTP (urllib3 e requests)
+- Integração com APIs externas (exemplo: cotação Bitcoin)
+- Configuração de cron jobs com EventBridge
+
+**Objetivo**: Implementar automações com Lambda e eventos temporais.
+
+**Resultado**: Lambdas funcionando com agendamentos e integrações HTTP.
+
+---
+
+#### Aula 12 - AWS CLI
+
+**Conteúdo Real**:
+
+- Introdução ao AWS CLI e AWS CloudShell
+- Instalação do AWS CLI no Windows
+- Configuração de perfis múltiplos (desenvolvimento, produção)
+- Comandos básicos do AWS CLI
+- Comandos do S3: mb, rb, cp, mv, ls, rm, sync, website, presign
+- Comandos do RDS: create-db-instance, describe-db-instances, delete-db-instance
+- Automação de tarefas com scripts Bash
+
+**Objetivo**: Gerenciar AWS via linha de comando.
+
+**Resultado**: Automação de tarefas AWS via CLI e scripts.
+
+---
+
+#### Aula 13 - Amazon SQS
+
+**Conteúdo Real**:
+
+- Introdução ao Amazon SQS (Simple Queue Service)
+- Tipos de filas: Standard vs FIFO
+- Criação de filas SQS (console e CLI)
+- Configurações detalhadas: Visibility Timeout, Message Retention, Delivery Delay
+- Envio e recebimento de mensagens via CLI
+- Integração com código Python (boto3)
+- Controle de concorrência e Dead Letter Queues
+- Boas práticas para engenharia de dados
+
+**Objetivo**: Implementar filas de mensagens para desacoplamento de sistemas.
+
+**Resultado**: Sistema de filas funcionando para processamento assíncrono.
+
+---
+
+#### Aula 14 - Amazon SNS
+
+**Conteúdo Real**:
+
+- Introdução ao Amazon SNS (Simple Notification Service)
+- Diferenças entre SNS e SQS
+- Modelo Pub/Sub (Publicação/Assinatura)
+- Criação de tópicos SNS
+- Assinantes: Lambda, SQS, Email, SMS, HTTP/S
+- Projeto: Integração SNS com múltiplas funções Lambda (Python e JavaScript)
+- Publicação de mensagens (boto3, CLI, Console)
+- ETL com notificação SNS
+
+**Objetivo**: Implementar sistema de notificações Pub/Sub.
+
+**Resultado**: Sistema de notificações funcionando com múltiplos assinantes.
+
+---
+
+#### Aula 15 - Projeto: Página de Sorteio com AWS
+
+**Conteúdo Real**:
+
+- Construção de página web com AWS Amplify
+- Função Lambda para gerar números aleatórios
+- Integração com API Gateway
+- Persistência de dados no DynamoDB
+- Frontend HTML completo com JavaScript
+- Sistema completo: Frontend → API Gateway → Lambda → DynamoDB
+
+**Objetivo**: Construir aplicação completa serverless na AWS.
+
+**Resultado**: Aplicação web completa funcionando com backend serverless.
+
+---
+
+### Parte 3: Projetos Integrados (Aulas 16-19)
+
+#### Aula 16-19 - Projetos Integrados AWS
+
+**Conteúdo Real**:
+
+- Projetos práticos integrando múltiplos serviços AWS
+- Deploy de aplicações completas
+- Integração entre serviços (EC2, RDS, S3, Lambda, etc.)
+- Configuração de ambientes de produção
+- Otimização e boas práticas
+
+**Objetivo**: Consolidar conhecimentos com projetos práticos completos.
+
+**Resultado**: Aplicações completas em produção na AWS.
+
+---
+
+## 🛠️ Tecnologias e Ferramentas
+
+### AWS
+
+- **Armazenamento**: S3, EBS
+- **Computação**: EC2, Lambda
+- **Bancos de Dados**: RDS (PostgreSQL, MySQL)
+- **Rede**: VPC, IGW, NAT Gateway, VPC Endpoints
+- **Segurança**: IAM, Security Groups
+- **Mensageria**: SQS, SNS, EventBridge
+- **APIs**: API Gateway
+- **NoSQL**: DynamoDB
+- **Hospedagem Web**: Amplify
+- **CLI**: AWS CLI, AWS CloudShell
+
+### Ferramentas
+
+- **Containerização**: Docker
+- **CLI**: AWS CLI, AWS CloudShell
+
+## 📦 Pré-requisitos
+
+- Conhecimento básico de Python
+- Conhecimento básico de Linux/terminal
+- Conta AWS (Free Tier)
+- Docker instalado (para alguns projetos)
+
+## 🚀 Como Usar
+
+1. **Siga a ordem das aulas** (01 → 15)
+
+2. **Leia o README de cada aula** antes de começar
+3. **Configure as contas** nas plataformas cloud
+4. **Execute os projetos práticos** seguindo os passos detalhados
+5. **Consulte a documentação oficial** quando necessário
+
+## 📊 Arquitetura Geral
+
+```mermaid
+graph TD
+    A[Conta AWS] --> B[S3 - Armazenamento];
+    A --> C[EC2 - Computação];
+    A --> D[RDS - Banco de Dados];
+    A --> E[Lambda - Serverless];
+    A --> F[VPC - Rede];
+    A --> G[SQS - Filas];
+    A --> H[SNS - Notificações];
+    
+    C --> I[Aplicações de Dados];
+    E --> J[Automações e Eventos];
+    B --> K[Data Lake];
+    D --> I;
+    G --> L[Processamento Assíncrono];
+    H --> M[Pub/Sub];
+    
+    style A fill:#ff9900
+```
+
+## 🔗 Conexões com a Formação
+
+- **Pré-requisitos**:
+
+  - Fundamentos (Git, Docker) em `02-fundamentos-dados/`
+  - Python avançado em `03-python-avancado-para-dados/`
+- **Aplicação Prática**:
+  - Deploy de projetos de `01-projetos/`
+  - Orquestração com Airflow
+- **Próximos passos**:
+  - DevOps e Kubernetes em `05-engenharia-de-dados-e-ia/12-devops-kubernetes/`
+  - Terraform avançado em `05-engenharia-de-dados-e-ia/11-infra-as-a-code-terraform/`
+
+## 📖 Recursos Adicionais
+
+- [Documentação AWS](https://docs.aws.amazon.com/)
+- [AWS Free Tier](https://aws.amazon.com/free/)
+- [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected/)
+- [AWS Training and Certification](https://aws.amazon.com/training/)
+
+## 👤 Autor
+
+**Luciano Filho** - [lvgalvaofilho@gmail.com](mailto:lvgalvaofilho@gmail.com)
+
+---
+
+**Parte da Formação Profissional em Engenharia de Dados e Inteligência Artificial - [Jornada de Dados](https://suajornadadedados.com.br/)**

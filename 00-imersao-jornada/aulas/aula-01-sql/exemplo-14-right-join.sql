@@ -22,20 +22,21 @@
 -- Pergunta: Quais vendas temos e de quais produtos (incluindo não cadastrados)?
 
 SELECT 
-    v.id_venda,
-    v.data_venda,
     v.id_produto,
     p.nome_produto,
     p.categoria,
-    v.quantidade,
-    v.preco_unitario,
-    (v.quantidade * v.preco_unitario) AS receita_venda
+    SUM(v.quantidade) AS quantidade_total_vendida,
+    SUM(v.quantidade * v.preco_unitario) AS receita_total
 FROM 
     produtos p
-    RIGHT JOIN vendas v ON p.id_produto = v.id_produto
+    RIGHT JOIN vendas v 
+        ON p.id_produto = v.id_produto
+GROUP BY 
+    v.id_produto,
+    p.nome_produto,
+    p.categoria
 ORDER BY 
-    v.data_venda DESC
-LIMIT 30;
+    quantidade_total_vendida DESC;
 
 -- ============================================
 -- EXEMPLO 14B: Vendas de produtos NÃO cadastrados

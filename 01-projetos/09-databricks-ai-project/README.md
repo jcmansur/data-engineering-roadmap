@@ -24,6 +24,33 @@ Este projeto demonstra como construir **agentes de IA corporativos** no Databric
 
 **Objetivo Educacional**: Aprender a construir soluções de IA para análise de dados, implementar RAG (Retrieval Augmented Generation), usar Vector Search e integrar LLMs com dados corporativos.
 
+## 📊 Arquitetura do Projeto
+
+```mermaid
+graph TD
+    A[Pergunta do Usuário<br/>Linguagem Natural] --> B[LangChain<br/>Orquestrador]
+    
+    B --> C1[Vector Search<br/>Busca Semântica]
+    B --> C2[Text-to-SQL<br/>Consulta Dados]
+    
+    C1 --> D[LLM<br/>Databricks/OpenAI]
+    C2 --> D
+    
+    D --> E[Resposta<br/>Contextualizada]
+    
+    F[Dados Corporativos<br/>Tabelas Delta] --> C2
+    G[Embeddings<br/>Vector DB] --> C1
+    
+    H[MLflow<br/>Tracking] --> B
+    H --> D
+    
+    style A fill:#e1f5ff
+    style B fill:#fff3e0
+    style D fill:#f3e5f5
+    style E fill:#c8e6c9
+    style H fill:#ffebee
+```
+
 ## 🎯 Objetivos de Aprendizado
 
 - **RAG (Retrieval Augmented Generation)**: Implementar arquitetura RAG completa

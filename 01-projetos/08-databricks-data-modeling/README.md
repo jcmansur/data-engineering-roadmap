@@ -8,6 +8,29 @@ Este projeto demonstra, de ponta a ponta, a construção de um **Data Warehouse 
 
 **Compatibilidade**: As instruções e notebooks foram pensadas para rodar no Databricks Free Edition (Community/Trial), com observações sobre ambientes com/sem Unity Catalog.
 
+## 📊 Arquitetura do Projeto
+
+```mermaid
+graph TD
+    A[Dados Brutos<br/>Simulados] -->|Bronze Layer| B[Dados Brutos<br/>Delta Tables]
+    
+    B -->|Clean & Dedupe| C[Silver Layer<br/>Dados Curados]
+    C -->|MERGE<br/>SCD Type 2| D[Silver<br/>dim_customer_scd]
+    
+    C -->|Modelagem| E[Gold Layer<br/>Dimensões]
+    D --> E
+    
+    E --> F[Gold<br/>Fatos]
+    F --> G[Views Analíticas<br/>Insights]
+    
+    style A fill:#e1f5ff
+    style B fill:#fff3e0
+    style C fill:#fff9c4
+    style E fill:#c8e6c9
+    style F fill:#c8e6c9
+    style G fill:#f3e5f5
+```
+
 ## 🎯 Objetivos de Aprendizado
 
 - **Padrão Bronze-Silver-Gold**: Implementar camadas de dados no Lakehouse

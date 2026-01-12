@@ -6,6 +6,29 @@ Este projeto demonstra como processar eficientemente **1 bilhão de linhas de da
 
 **Objetivo Educacional**: Entender as diferenças de performance entre diferentes abordagens de processamento de dados em Python e aprender a escolher a ferramenta certa para cada cenário de Big Data.
 
+## 📊 Fluxo do Projeto
+
+```mermaid
+graph TD
+    A[Arquivo CSV<br/>1 bilhão de linhas<br/>~14GB] --> B{Abordagem}
+    
+    B -->|Python Puro| C1[20 min]
+    B -->|Pandas| C2[263 seg]
+    B -->|Dask| C3[155 seg]
+    B -->|Polars| C4[33 seg]
+    B -->|DuckDB| C5[14 seg ⚡]
+    
+    C1 --> D[Estatísticas por Estação<br/>Min, Média, Max]
+    C2 --> D
+    C3 --> D
+    C4 --> D
+    C5 --> D
+    
+    style A fill:#e1f5ff
+    style C5 fill:#c8e6c9
+    style D fill:#fff3e0
+```
+
 ## 🎯 Objetivos de Aprendizado
 
 - **Processamento de Big Data**: Aprender técnicas para processar grandes volumes de dados eficientemente

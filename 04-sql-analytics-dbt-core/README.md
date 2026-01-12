@@ -66,5 +66,33 @@ Este bootcamp é um **programa intensivo de SQL e Analytics Engineering** projet
 - *[Aula-13](./Aula-13)* - **Database Partition**
 
 
+## 💼 Preparação para o Mercado
+
+**Esta formação prepara você para a maioria das vagas e realidades de engenharia de dados no mercado atual.**
+
+O conteúdo foi cuidadosamente selecionado baseado em:
+- **Análise de vagas reais**: Estudamos centenas de vagas de engenharia de dados para identificar as habilidades mais demandadas
+- **Tecnologias de mercado**: Focamos em ferramentas amplamente utilizadas (SQL, dbt, PostgreSQL, BigQuery, etc.)
+- **Casos de uso reais**: Todos os exemplos e projetos são baseados em situações reais de empresas
+- **Stack moderno**: Ensinamos o Modern Data Stack, usado pelas empresas mais inovadoras
+
+### Habilidades que você desenvolverá:
+
+✅ **SQL Avançado**: Essencial para 95%+ das vagas de engenharia de dados  
+✅ **Analytics Engineering**: Uma das áreas que mais cresce no mercado  
+✅ **dbt-core**: Ferramenta padrão da indústria para transformações  
+✅ **Modelagem de Dados**: Fundamental para qualquer projeto de dados  
+✅ **Otimização**: Performance e escalabilidade são sempre requisitos  
+✅ **Boas Práticas**: Código limpo, versionamento, testes
+
+### Tipos de vagas que você estará preparado:
+
+- **Analytics Engineer**: Transformações de dados com SQL e dbt
+- **Data Engineer**: Pipelines e modelagem de dados
+- **BI Engineer**: Criação de modelos analíticos
+- **Data Analyst Avançado**: Análises complexas com SQL
+- **Consultor de Dados**: Projetos de transformação e analytics
+
 ## Por Que Participar?
+
 Participar do nosso Bootcamp de SQL e Analytics não apenas fortalece suas habilidades técnicas, mas também expande sua rede profissional através de interações com colegas e especialistas da indústria. Ao final do programa, você estará bem equipado para enfrentar desafios complexos de dados e fazer contribuições significativas no campo da engenharia e análise de dados.

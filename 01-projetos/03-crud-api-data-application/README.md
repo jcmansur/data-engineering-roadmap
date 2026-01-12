@@ -6,6 +6,27 @@ Este projeto demonstra como construir uma **aplicação completa de dados** com 
 
 **Objetivo Educacional**: Aprender a construir aplicações de dados completas com APIs REST, ORM, validação de dados e interfaces web interativas.
 
+## 📊 Arquitetura do Projeto
+
+```mermaid
+graph TB
+    A[Frontend<br/>Streamlit] -->|HTTP Requests| B[Backend API<br/>FastAPI]
+    B -->|SQLAlchemy ORM| C[PostgreSQL<br/>Banco de Dados]
+    
+    B -->|Validação| D[Pydantic<br/>Schemas]
+    D --> B
+    
+    E[Docker Compose] --> A
+    E --> B
+    E --> C
+    
+    style A fill:#e1f5ff
+    style B fill:#fff3e0
+    style C fill:#c8e6c9
+    style D fill:#f3e5f5
+    style E fill:#ffebee
+```
+
 ## 🎯 Objetivos de Aprendizado
 
 - **APIs REST**: Construir APIs RESTful com FastAPI

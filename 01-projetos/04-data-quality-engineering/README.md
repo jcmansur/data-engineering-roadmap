@@ -6,6 +6,25 @@ Este projeto demonstra como implementar **pipelines de qualidade de dados** util
 
 **Objetivo Educacional**: Aprender a garantir qualidade de dados em pipelines ETL através de validação de schemas, contratos de dados e tratamento de erros robusto.
 
+## 📊 Fluxo do Projeto
+
+```mermaid
+graph LR
+    A[PostgreSQL<br/>Dados Brutos] -->|Extract| B[Validação<br/>Pandera Schema]
+    B -->|Transform| C[Cálculo KPIs<br/>Normalização]
+    C -->|Validação| D[Validação<br/>Schema KPI]
+    D -->|Load| E[DuckDB<br/>Dados Validados]
+    
+    F[Inferência<br/>Schema Automático] --> B
+    
+    style A fill:#e1f5ff
+    style B fill:#fff3e0
+    style C fill:#f3e5f5
+    style D fill:#fff3e0
+    style E fill:#c8e6c9
+    style F fill:#e8f5e9
+```
+
 ## 🎯 Objetivos de Aprendizado
 
 - **Validação de Schemas**: Usar Pandera para validar estruturas e tipos de dados

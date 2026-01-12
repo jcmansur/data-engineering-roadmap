@@ -6,6 +6,25 @@ Este projeto demonstra como **extrair dados de arquivos PDF** armazenados no Ama
 
 **Objetivo Educacional**: Aprender a processar dados não-estruturados (PDFs), integrar com serviços AWS (S3, SQS), e implementar pipelines event-driven.
 
+## 📊 Fluxo do Projeto
+
+```mermaid
+graph TD
+    A[Upload PDF<br/>S3 Bucket] -->|Trigger| B[SQS Queue<br/>Mensagem]
+    B -->|Polling<br/>2 min| C[Processador]
+    
+    C -->|camelot-py| D1[Extrair Tabelas]
+    C -->|PyPDF2| D2[Extrair Texto]
+    
+    D1 --> E[PostgreSQL<br/>Dados Estruturados]
+    D2 --> E
+    
+    style A fill:#e1f5ff
+    style B fill:#fff3e0
+    style C fill:#f3e5f5
+    style E fill:#c8e6c9
+```
+
 ## 🎯 Objetivos de Aprendizado
 
 - **Extração de PDFs**: Extrair tabelas e texto de arquivos PDF

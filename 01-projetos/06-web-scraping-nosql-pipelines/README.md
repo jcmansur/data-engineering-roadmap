@@ -6,6 +6,26 @@ Este projeto demonstra como construir **pipelines de web scraping** utilizando P
 
 **Objetivo Educacional**: Aprender técnicas de web scraping, trabalhar com bancos NoSQL, implementar crawlers reutilizáveis e gerenciar cache com Redis.
 
+## 📊 Fluxo do Projeto
+
+```mermaid
+graph LR
+    A[Websites<br/>ML, Amazon] -->|Scraping| B{Crawler}
+    
+    B -->|HTTP Requests| C1[GenericRequestCrawler<br/>Mais Rápido]
+    B -->|Selenium Browser| C2[GenericBrowserCrawler<br/>Mais Completo]
+    
+    C1 --> D[Redis<br/>Cache]
+    C2 --> D
+    
+    D --> E[MongoDB<br/>Armazenamento]
+    
+    style A fill:#e1f5ff
+    style B fill:#fff3e0
+    style D fill:#ffebee
+    style E fill:#c8e6c9
+```
+
 ## 🎯 Objetivos de Aprendizado
 
 - **Web Scraping**: Extrair dados de websites usando Requests e Selenium

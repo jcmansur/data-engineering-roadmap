@@ -6,6 +6,30 @@ Este projeto demonstra como realizar **análises avançadas de dados usando SQL*
 
 **Objetivo Educacional**: Dominar SQL avançado para análise de dados, incluindo funções de janela, agregações complexas, segmentação de clientes e análises temporais.
 
+## 📊 Fluxo do Projeto
+
+```mermaid
+graph TD
+    A[Banco Northwind<br/>Dados de Vendas] --> B[SQL Avançado]
+    
+    B --> C1[Relatórios Receita<br/>YTD, Crescimento]
+    B --> C2[Segmentação Clientes<br/>NTILE, Grupos]
+    B --> C3[Top Produtos<br/>Agregações]
+    B --> C4[Análises Temporais<br/>Window Functions]
+    
+    C1 --> D[Views e Procedures<br/>Objetos Reutilizáveis]
+    C2 --> D
+    C3 --> D
+    C4 --> D
+    
+    D --> E[Insights de Negócio]
+    
+    style A fill:#e1f5ff
+    style B fill:#fff3e0
+    style D fill:#c8e6c9
+    style E fill:#f3e5f5
+```
+
 ## 🎯 Objetivos de Aprendizado
 
 - **SQL Avançado**: Usar Window Functions, CTEs e subqueries complexas

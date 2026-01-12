@@ -6,6 +6,25 @@ Este projeto demonstra como estruturar um projeto de dados profissional do zero,
 
 **Objetivo Educacional**: Aprender a estruturar projetos de dados profissionais com organização de código, testes automatizados, documentação e ferramentas de desenvolvimento modernas.
 
+## 📊 Fluxo do Projeto
+
+```mermaid
+graph LR
+    A[Arquivos Excel<br/>Múltiplos arquivos] -->|Extract| B[Pandas<br/>Leitura de dados]
+    B -->|Transform| C[Consolidação<br/>pd.concat]
+    C -->|Load| D[Arquivo Excel<br/>Consolidado]
+    
+    E[Geração de Dados<br/>Faker] --> A
+    F[Testes<br/>pytest] --> B
+    F --> C
+    F --> D
+    
+    style A fill:#e1f5ff
+    style D fill:#c8e6c9
+    style E fill:#fff3e0
+    style F fill:#f3e5f5
+```
+
 ## 🎯 Objetivos de Aprendizado
 
 - **Estruturação de projetos**: Organização de diretórios, separação de responsabilidades, modularização

@@ -9,7 +9,9 @@
 
 ## 📋 Sobre
 
-Este é o **repositório oficial da Formação Profissional em Engenharia de Dados** da **Jornada de Dados**. Este repositório contém todo o conteúdo prático, projetos, exercícios e materiais de apoio utilizados durante a formação.
+Este é o **repositório oficial da Formação Profissional em Engenharia de Dados** da **Jornada de Dados**. 
+
+**Esse é o roadmap para se especializar em engenharia de dados**, baseado em fundamentos, principais tecnologias de mercado e projetos práticos do mundo real. Este repositório contém todo o conteúdo prático, projetos, exercícios e materiais de apoio utilizados durante a formação.
 
 **Estrutura do Repositório:**
 
@@ -103,19 +105,19 @@ Se você gostou do conteúdo e quer se inscrever em nosso programa profissional,
 
 ---
 
-## Próximos Eventos
+## 📅 Próximos Eventos 2026
 
 | Nome/Github                                      | Onde     | Data   | Mês       |
 |-------------------------------------------|----------|--------|-----------|
-| [Pipeline de dados no Azure](https://github.com/lvgalvao/workshop-azure-jornadadedados)                | Jornada  | 21/12  | Hoje  |
-| ETL 10 bilhões de linhas           | Youtube  | Terça dia 14/01 ás 19h30  | Janeiro   |
-| Databricks e delta table (OLAP + OLTP)           | Jornada  | 22/01  | Janeiro   |
-| Bootcamp Multiengine Databricks, Spark e DuckDB           | Jornada  | 27/01 até 31/01  | Janeiro   |
-| Convidado surpresa           | Jornada  | 04/02  | Janeiro   |
-| Kubernetes e Airflow no Google Cloud                     | Jornada  | 22/02  | Fevereiro     |
-| Bootcamp de AI Agents                     | Jornada  | 27/03  | Março     |
+| ETL 10 bilhões de linhas           | Youtube  | A definir  | 2026   |
+| Databricks e delta table (OLAP + OLTP)           | Jornada  | A definir  | 2026   |
+| Bootcamp Multiengine Databricks, Spark e DuckDB           | Jornada  | A definir  | 2026   |
+| Kubernetes e Airflow no Google Cloud                     | Jornada  | A definir  | 2026     |
+| Bootcamp de AI Agents                     | Jornada  | A definir  | 2026     |
 
-![roadmap](./pics/roadmap_2025.png)
+*Consulte nosso site para datas atualizadas: [Jornada de Dados](https://suajornadadedados.com.br/)*
+
+![roadmap](./pics/roadmap_2026.png)
 
 Tem sugestões de Tópicos? [clique aqui](https://github.com/lvgalvao/data-engineering-roadmap/issues)
 
@@ -178,8 +180,8 @@ ___
 | Amazon SQS e Rabbit MQ eu preciso mesmo disso? | [Assistir no YouTube](https://www.youtube.com/watch?v=sSBFCffBSac) | 5min | SQS, Rabbit MQ | 
 | Segredos para economizar com a AWS | [Assistir no YouTube](https://www.youtube.com/watch?v=aKvCjSQHb_w) | 5min | AWS | 
 | CRUD, qual a vantagem de usar um ORM? | [Assistir no YouTube](https://www.youtube.com/watch?v=hl5YjfvqkB0) | 6min | SQL Alchemy, Python, ORM, SQL | 
-| Como instalar Python em 2024 + Pyenv, PIP, VENV, PIPX e Poetry | [Assistir no YouTube](https://www.youtube.com/watch?v=9LYqtLuD7z4) | 33min | Pyenv, PIP, VENV, PIPX, Poetry, Python | 
-| Como instalar Python em 2024 + VSCode, Git e GitHub do Zero | [Assistir no YouTube](https://www.youtube.com/watch?v=-M4pMd2yQOM) | 33min | Python, VSCode, Git, GitHub | 
+| Como instalar Python em 2026 + Pyenv, PIP, VENV, PIPX e Poetry | [Assistir no YouTube](https://www.youtube.com/watch?v=9LYqtLuD7z4) | 33min | Pyenv, PIP, VENV, PIPX, Poetry, Python | 
+| Como instalar Python em 2026 + VSCode, Git e GitHub do Zero | [Assistir no YouTube](https://www.youtube.com/watch?v=-M4pMd2yQOM) | 33min | Python, VSCode, Git, GitHub | 
 | O que é o arquivo __init__.py em Python? Explicado com 4 exemplos | [Assistir no YouTube](https://www.youtube.com/watch?v=H7rINLV6e0I) | 14min | Python | 
 
 

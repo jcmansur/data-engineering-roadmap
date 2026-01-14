@@ -1,4 +1,20 @@
-# Databricks Data Modeling
+<div align="center">
+  <img src="../09-databricks-ai-project/assets/jornada.png" alt="Jornada de Dados" width="200"/>
+
+# **Projeto: Databricks Data Modeling**
+
+### [Jornada de Dados](https://suajornadadedados.com.br/)
+
+**Projeto prático sobre construção de Data Warehouse completo no Databricks com padrão Bronze-Silver-Gold**
+
+[![Projeto](https://img.shields.io/badge/Projeto-Data%20Modeling-blue?style=for-the-badge)](https://suajornadadedados.com.br/)
+[![Databricks](https://img.shields.io/badge/Databricks-Lakehouse-orange?style=for-the-badge\&logo=databricks)](https://www.databricks.com/)
+[![Delta Lake](https://img.shields.io/badge/Delta%20Lake-Storage-blue?style=for-the-badge)](https://delta.io/)
+[![SQL](https://img.shields.io/badge/SQL-Advanced-orange?style=for-the-badge\&logo=postgresql)](https://www.postgresql.org/)
+
+</div>
+
+-----
 
 ## 📋 Sobre
 

@@ -1,4 +1,21 @@
-# Data Quality Engineering
+<div align="center">
+  <img src="../09-databricks-ai-project/assets/jornada.png" alt="Jornada de Dados" width="200"/>
+
+# **Projeto: Data Quality Engineering**
+
+### [Jornada de Dados](https://suajornadadedados.com.br/)
+
+**Projeto prático sobre pipelines de qualidade de dados com validação de schemas e contratos de dados**
+
+[![Projeto](https://img.shields.io/badge/Projeto-Data%20Quality-blue?style=for-the-badge)](https://suajornadadedados.com.br/)
+[![Python](https://img.shields.io/badge/Python-3.11+-green?style=for-the-badge\&logo=python)](https://python.org)
+[![Pandera](https://img.shields.io/badge/Pandera-Schema%20Validation-purple?style=for-the-badge)](https://pandera.readthedocs.io/)
+[![DuckDB](https://img.shields.io/badge/DuckDB-Analytics-yellow?style=for-the-badge)](https://duckdb.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue?style=for-the-badge\&logo=postgresql)](https://www.postgresql.org/)
+
+</div>
+
+-----
 
 ## 📋 Sobre
 

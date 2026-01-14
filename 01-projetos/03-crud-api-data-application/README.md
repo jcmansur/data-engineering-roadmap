@@ -1,4 +1,21 @@
-# CRUD API Data Application
+<div align="center">
+  <img src="../09-databricks-ai-project/assets/jornada.png" alt="Jornada de Dados" width="200"/>
+
+# **Projeto: CRUD API Data Application**
+
+### [Jornada de Dados](https://suajornadadedados.com.br/)
+
+**Projeto prático sobre construção de aplicação completa com FastAPI, Streamlit e PostgreSQL**
+
+[![Projeto](https://img.shields.io/badge/Projeto-CRUD%20API-blue?style=for-the-badge)](https://suajornadadedados.com.br/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-API-green?style=for-the-badge\&logo=fastapi)](https://fastapi.tiangolo.com/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Frontend-red?style=for-the-badge\&logo=streamlit)](https://streamlit.io/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue?style=for-the-badge\&logo=postgresql)](https://www.postgresql.org/)
+[![Docker](https://img.shields.io/badge/Docker-Containers-blue?style=for-the-badge\&logo=docker)](https://www.docker.com/)
+
+</div>
+
+-----
 
 ## 📋 Sobre
 

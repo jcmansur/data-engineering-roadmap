@@ -1,4 +1,21 @@
-# Data Project Foundations
+<div align="center">
+  <img src="../09-databricks-ai-project/assets/jornada.png" alt="Jornada de Dados" width="200"/>
+
+# **Projeto: Data Project Foundations**
+
+### [Jornada de Dados](https://suajornadadedados.com.br/)
+
+**Projeto prático sobre estruturação de projetos de dados profissionais com boas práticas, testes e documentação**
+
+[![Projeto](https://img.shields.io/badge/Projeto-Foundations-blue?style=for-the-badge)](https://suajornadadedados.com.br/)
+[![Python](https://img.shields.io/badge/Python-3.11+-green?style=for-the-badge\&logo=python)](https://python.org)
+[![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-blue?style=for-the-badge\&logo=pandas)](https://pandas.pydata.org/)
+[![pytest](https://img.shields.io/badge/pytest-Testing-yellow?style=for-the-badge\&logo=pytest)](https://docs.pytest.org/)
+[![Poetry](https://img.shields.io/badge/Poetry-Dependencies-orange?style=for-the-badge)](https://python-poetry.org/)
+
+</div>
+
+-----
 
 ## 📋 Sobre
 

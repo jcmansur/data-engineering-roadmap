@@ -1,4 +1,22 @@
-# Python Big Data Processing
+<div align="center">
+  <img src="../09-databricks-ai-project/assets/jornada.png" alt="Jornada de Dados" width="200"/>
+
+# **Projeto: Python Big Data Processing**
+
+### [Jornada de Dados](https://suajornadadedados.com.br/)
+
+**Projeto prático sobre processamento eficiente de 1 bilhão de linhas comparando Python, Pandas, Dask, Polars e DuckDB**
+
+[![Projeto](https://img.shields.io/badge/Projeto-Big%20Data-blue?style=for-the-badge)](https://suajornadadedados.com.br/)
+[![Python](https://img.shields.io/badge/Python-3.12+-green?style=for-the-badge\&logo=python)](https://python.org)
+[![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-blue?style=for-the-badge\&logo=pandas)](https://pandas.pydata.org/)
+[![Dask](https://img.shields.io/badge/Dask-Distributed-orange?style=for-the-badge)](https://dask.org/)
+[![Polars](https://img.shields.io/badge/Polars-Fast%20DataFrames-red?style=for-the-badge)](https://pola-rs.github.io/polars/)
+[![DuckDB](https://img.shields.io/badge/DuckDB-Analytics-yellow?style=for-the-badge)](https://duckdb.org/)
+
+</div>
+
+-----
 
 ## 📋 Sobre
 

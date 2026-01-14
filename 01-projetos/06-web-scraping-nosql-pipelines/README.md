@@ -1,4 +1,21 @@
-# Web Scraping NoSQL Pipelines
+<div align="center">
+  <img src="../09-databricks-ai-project/assets/jornada.png" alt="Jornada de Dados" width="200"/>
+
+# **Projeto: Web Scraping NoSQL Pipelines**
+
+### [Jornada de Dados](https://suajornadadedados.com.br/)
+
+**Projeto prático sobre pipelines de web scraping com armazenamento em Redis e MongoDB**
+
+[![Projeto](https://img.shields.io/badge/Projeto-Web%20Scraping-blue?style=for-the-badge)](https://suajornadadedados.com.br/)
+[![Python](https://img.shields.io/badge/Python-3.11+-green?style=for-the-badge\&logo=python)](https://python.org)
+[![Selenium](https://img.shields.io/badge/Selenium-Automation-green?style=for-the-badge\&logo=selenium)](https://www.selenium.dev/)
+[![Redis](https://img.shields.io/badge/Redis-Cache-red?style=for-the-badge\&logo=redis)](https://redis.io/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-NoSQL-green?style=for-the-badge\&logo=mongodb)](https://www.mongodb.com/)
+
+</div>
+
+-----
 
 ## 📋 Sobre
 

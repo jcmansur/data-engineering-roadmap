@@ -1,4 +1,21 @@
-# PDF Data Extraction
+<div align="center">
+  <img src="../09-databricks-ai-project/assets/jornada.png" alt="Jornada de Dados" width="200"/>
+
+# **Projeto: PDF Data Extraction**
+
+### [Jornada de Dados](https://suajornadadedados.com.br/)
+
+**Projeto prático sobre extração de dados de PDFs com AWS S3, SQS e processamento event-driven**
+
+[![Projeto](https://img.shields.io/badge/Projeto-PDF%20Extraction-blue?style=for-the-badge)](https://suajornadadedados.com.br/)
+[![Python](https://img.shields.io/badge/Python-3.11+-green?style=for-the-badge\&logo=python)](https://python.org)
+[![AWS S3](https://img.shields.io/badge/AWS-S3-orange?style=for-the-badge\&logo=amazonaws)](https://aws.amazon.com/s3/)
+[![AWS SQS](https://img.shields.io/badge/AWS-SQS-orange?style=for-the-badge\&logo=amazonaws)](https://aws.amazon.com/sqs/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue?style=for-the-badge\&logo=postgresql)](https://www.postgresql.org/)
+
+</div>
+
+-----
 
 ## 📋 Sobre
 

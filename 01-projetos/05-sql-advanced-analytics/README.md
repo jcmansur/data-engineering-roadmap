@@ -1,4 +1,20 @@
-# SQL Advanced Analytics
+<div align="center">
+  <img src="../09-databricks-ai-project/assets/jornada.png" alt="Jornada de Dados" width="200"/>
+
+# **Projeto: SQL Advanced Analytics**
+
+### [Jornada de Dados](https://suajornadadedados.com.br/)
+
+**Projeto prático sobre análises avançadas de dados usando SQL com Window Functions, CTEs e Stored Procedures**
+
+[![Projeto](https://img.shields.io/badge/Projeto-SQL%20Analytics-blue?style=for-the-badge)](https://suajornadadedados.com.br/)
+[![SQL](https://img.shields.io/badge/SQL-Advanced-orange?style=for-the-badge\&logo=postgresql)](https://www.postgresql.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue?style=for-the-badge\&logo=postgresql)](https://www.postgresql.org/)
+[![Northwind](https://img.shields.io/badge/Northwind-ERP-green?style=for-the-badge)](https://github.com/microsoft/sql-server-samples)
+
+</div>
+
+-----
 
 ## 📋 Sobre
 

@@ -1,13 +1,13 @@
 <div align="center">
   <img src="./assets/jornada.png" alt="Jornada de Dados" width="200"/>
 
-# **Workshop: Databricks – Construindo Agentes de IA**
+# **Projeto: Databricks – Construindo Agentes de IA**
 
 ### [Jornada de Dados](https://suajornadadedados.com.br/)
 
-**Workshop prático sobre criação de agentes de IA no Databricks, integrando LangChain e Vector Search**
+**Projeto prático sobre criação de agentes de IA no Databricks, integrando LangChain e Vector Search**
 
-[![Workshop](https://img.shields.io/badge/Workshop-Agentes%20de%20IA-blue?style=for-the-badge)](https://jornadadedados.alpaclass.com/c/cursos/jAZX23)
+[![Projeto](https://img.shields.io/badge/Projeto-Agentes%20de%20IA-blue?style=for-the-badge)](https://suajornadadedados.com.br/)
 [![Databricks](https://img.shields.io/badge/Databricks-Lakehouse-orange?style=for-the-badge&logo=databricks)](https://www.databricks.com/)
 [![LangChain](https://img.shields.io/badge/LangChain-Framework-blueviolet?style=for-the-badge&logo=chainlink)](https://docs.langchain.com/)
 [![Python](https://img.shields.io/badge/Python-3.12+-green?style=for-the-badge\&logo=python)](https://python.org)
